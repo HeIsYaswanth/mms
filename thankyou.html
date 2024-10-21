@@ -1,0 +1,71 @@
+<html>
+  <title>Thankyou</title>
+  <head>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="thankyou.css" />
+  </head>
+  <body>
+    <!---Navbar Started-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img id="logo" src="logo.png" alt="" />
+        <a class="navbar-brand" href="#">MMS</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="">Student Corner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Admin Corner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Raise a complaint</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---Navbar Ended-->
+    <div class="container">
+      <h1 class="thank-you">Thank you!</h1>
+      <p class="message">
+        Thanks for giving your valuable feedback.<br />Have a nice day.
+      </p>
+      <button class="btn-home">Go Home</button>
+    </div>
+    <!----Scriptssss-->
+    <script>
+      document
+        .querySelector(".btn-home")
+        .addEventListener("click", function (event) {
+          // Redirect to the home page
+          window.location.href = "index.html";
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+.thank-you {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  color: #9e2b2f;
+}
+.message {
+  font-size: 18px;
+  color: #9b9b9b;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.btn-home {
+  background: #801316;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-home:hover {
+  background-color: #9e2b2f;
+  color: black;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
